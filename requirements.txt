@@ -1,0 +1,5 @@
+mne>=1.9
+antropy>=0.1.9
+numpy
+pandas
+matplotlib
