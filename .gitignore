@@ -1,3 +1,9 @@
+# Datos: se descargan / generan al correr el notebook
+/data/raw/*
+/data/processed/*
+!/data/raw/tmp.txt
+!/data/processed/tmp.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
