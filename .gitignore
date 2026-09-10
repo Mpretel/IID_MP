@@ -1,6 +1,8 @@
-# Datos: cada clase descarga / genera los suyos al correr su notebook
+# Datos: cada clase/TP descarga / genera los suyos al correr su notebook
 clases/*/data/raw/
 clases/*/data/processed/
+TP/*/data/raw/
+TP/*/data/processed/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
