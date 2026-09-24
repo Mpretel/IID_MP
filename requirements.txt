@@ -5,3 +5,5 @@ pandas
 matplotlib
 requests
 tqdm
+duckdb
+jupyter

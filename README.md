@@ -23,6 +23,11 @@ TP/
     src/             # pipeline reutilizable del TP
     data/            # datos crudos y procesados (ignorados por git)
     README.md
+  tp2/                # Modelado OLTP y dimensional de noticias (GDELT/CAMEO)
+    TP2.drawio       # diagramas ER y estrella (draw.io, XML)
+    notebooks/
+      TP2_informe.ipynb  # informe; implementa la tabla puente en DuckDB
+    README.md
 requirements.txt     # dependencias comunes a todas las clases y TPs
 ```
 
@@ -32,6 +37,7 @@ requirements.txt     # dependencias comunes a todas las clases y TPs
 pip install -r requirements.txt
 jupyter notebook clases/clase_01/notebooks/IID_01.ipynb
 jupyter notebook TP/tp1/notebooks/TP1.ipynb
+jupyter notebook TP/tp2/notebooks/TP2_informe.ipynb
 ```
 
 Cada clase y cada TP tiene su propio `README.md` con el detalle del análisis.
