@@ -12,8 +12,7 @@ usados en el TP1.
   el modelo OLTP (Entidad-Relación) y la página 2, el modelo dimensional
   (estrella).
 - [`notebooks/TP2_informe.ipynb`](notebooks/TP2_informe.ipynb): informe de las
-  actividades 1 y 2, con la justificación del diseño. Implementa la tabla puente
-  en DuckDB con datos sintéticos.
+  actividades 1 y 2, con la justificación del diseño.
 
 La actividad 3 (opcional) no está resuelta.
 
@@ -24,15 +23,6 @@ TP2.drawio              # diagramas ER y estrella (abrir con https://app.diagram
 notebooks/
   TP2_informe.ipynb     # informe (actividades 1 y 2)
 ```
-
-## Uso
-
-```bash
-pip install -r ../../requirements.txt
-jupyter notebook notebooks/TP2_informe.ipynb
-```
-
-El notebook no descarga datos de GDELT: corre en memoria con "Run All".
 
 ## Recursos
 
