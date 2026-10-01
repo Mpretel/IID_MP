@@ -3,6 +3,8 @@ antropy>=0.1.9
 numpy
 pandas
 matplotlib
+seaborn
+scikit-learn
 requests
 tqdm
 duckdb
