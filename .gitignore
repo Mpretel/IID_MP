@@ -3,6 +3,7 @@ clases/*/data/raw/
 clases/*/data/processed/
 TP/*/data/raw/
 TP/*/data/processed/
+TP/*/data/*.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
