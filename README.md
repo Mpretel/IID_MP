@@ -16,6 +16,12 @@ clases/
     src/             # pipeline reutilizable de la clase
     data/            # datos crudos y procesados (ignorados por git)
     README.md
+  clase_05/          # Detección no supervisada de anomalías (Cardiotocography)
+    notebooks/
+      IID_05.ipynb   # notebook orquestador: tabla comparativa de métodos
+    src/             # pipeline reutilizable de la clase
+    data/            # datos crudos y procesados (ignorados por git)
+    README.md
 TP/
   tp1/                # Métricas diarias de eventos globales (GDELT 2.0)
     notebooks/
@@ -42,6 +48,7 @@ requirements.txt     # dependencias comunes a todas las clases y TPs
 ```bash
 pip install -r requirements.txt
 jupyter notebook clases/clase_01/notebooks/IID_01.ipynb
+jupyter notebook clases/clase_05/notebooks/IID_05.ipynb
 jupyter notebook TP/tp1/notebooks/TP1.ipynb
 jupyter notebook TP/tp2/notebooks/TP2_informe.ipynb
 jupyter notebook TP/tp3/notebooks/TP3.ipynb
