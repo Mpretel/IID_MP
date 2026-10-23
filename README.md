@@ -40,6 +40,12 @@ TP/
     src/             # pipeline reutilizable del TP (incluye el almacén SQLite)
     data/            # datos crudos, almacén y procesados (ignorados por git)
     README.md
+  tp4/                # Detección de eventos atípicos (GDELT 2.0)
+    notebooks/
+      TP4.ipynb      # notebook orquestador, con el prompt antes de cada celda
+    src/             # pipeline reutilizable del TP
+    data/            # datos crudos y procesados (ignorados por git)
+    README.md
 requirements.txt     # dependencias comunes a todas las clases y TPs
 ```
 
@@ -52,6 +58,7 @@ jupyter notebook clases/clase_05/notebooks/IID_05.ipynb
 jupyter notebook TP/tp1/notebooks/TP1.ipynb
 jupyter notebook TP/tp2/notebooks/TP2_informe.ipynb
 jupyter notebook TP/tp3/notebooks/TP3.ipynb
+jupyter notebook TP/tp4/notebooks/TP4.ipynb
 ```
 
 Cada clase y cada TP tiene su propio `README.md` con el detalle del análisis.
